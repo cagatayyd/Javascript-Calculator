@@ -1,4 +1,4 @@
 # Javascript-Calculator
-### Hazırlayan
-## Çağatay Demirbağ 
-## Javascript, CSS , HTML kullanılmıştır
+## Hazırlayan
+### Çağatay Demirbağ 
+#### Javascript, CSS , HTML kullanılmıştır
