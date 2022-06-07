@@ -13,13 +13,17 @@
             <div class="calculator">
                 <div class="col-sm-12">
                     <div class="row">
-                <div class="input col-sm-3 text-end" id="result"></div>
+                <div class="input col-sm-3 text-end" id="result">
+
+                </div><Button class="buttons a" onclick="onenumb()" id="onenumb">del</Button>
                 
                 </div></div>
                 <div class="col-sm-12">
-                    <button class="buttons zero a" id="AC">AC</button>
+                    <button class="buttons a" id="AC">AC</button>
+                    <Button class="buttons a" onclick="bracket()" id="bracket">( )</Button>
                     <button class="buttons a" id="hundred">%</button>
                     <Button class="buttons b" onclick="divide()" id="divide">/</Button>
+                    
                 </div>
                 <div class="col-sm-12">
                     <Button class="buttons" onclick="seven()" id="seven">7</Button>

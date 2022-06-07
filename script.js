@@ -15,6 +15,7 @@ var minus = document.getElementById("minus");
 var AC = document.getElementById("AC")
 var hundred = document.getElementById("hundred")
 var comma = document.getElementById("comma")
+var onenumb =document.getElementById("onenumb")
 one.onclick = function () {
     result.innerHTML += "1"
     }
@@ -61,10 +62,24 @@ divide.onclick = function () {
     }
 AC.onclick = function () {
     result.innerHTML = ""
+    bracket.innerHTML = "( )"
 }
 comma.onclick = function () {
     result.innerHTML += "."
     }
+bracket.onclick = function () {
+if (bracket.innerHTML === "( )"){
+    result.innerHTML += "("
+    bracket.innerHTML = ")"
+}else {
+    result.innerHTML += ")"
+    bracket.innerHTML = "( )"
+    }
+}
+onenumb.onclick = function () {
+    var res = result.innerHTML
+    result.innerHTML = res.slice(0,-1)
+}
 
 hundred.onclick = function () {
     result.innerHTML += "/100"
